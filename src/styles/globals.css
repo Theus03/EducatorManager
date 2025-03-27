@@ -2,7 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #423137;
+  --bg-brown: #423137;
+  --bg-orange: #FF8B37;
+  --text-dark: #423137;
+  --text-orange: #FF8B37;
 }
 
 @theme inline {
@@ -23,4 +27,36 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-brown {
+  color: var(--text-brown);
+}
+
+.text-orange {
+  color: var(--text-orange);
+}
+
+.bg-brown {
+  background-color: var(--bg-brown);
+}
+
+.bg-orange {
+  background-color: var(--bg-orange);
+}
+
+.menu-active {
+  background-color: var(--bg-brown);
+  color: white !important;
+}
+
+.menu-hover:hover {
+  background-color: var(--bg-brown);
+  color: white !important;
+}
+
+@media (max-width: 640px) {
+  .hidden-border-page {
+    display: none;
+  }
 }
