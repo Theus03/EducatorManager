@@ -13,14 +13,12 @@ module.exports = {
           textOrange: 'var(--text-orange)',
         },
         screens: {
-          // Customizando os breakpoints
-          '2xs': '300px', // Tamano 2x extra pequeno
-          sm: '240px', // Tamanho pequeno
-          md: '768px', // Tamanho médio (padrão)
-          lg: '1024px', // Tamanho grande (padrão)
-          xl: '1280px', // Tamanho extra grande (padrão)
-          '2xl': '1536px', // Tamanho 2x extra grande
-          // Você pode adicionar mais breakpoints conforme necessário
+          'xs': '475px',
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px',
         },
       },
     },
