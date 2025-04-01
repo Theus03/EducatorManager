@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <div className="w-screen flex justify-center items-center">
+        <div className="w-full flex justify-center items-center">
             <nav className="flex items-center lg:gap-32 md:gap-24 sm:gap-16 p-8 max-[360px]:flex-col gap-2">
                 <Image
                     className="lg:w-48 md:w-48 max-[640px]:w-24"
