@@ -3,6 +3,7 @@ import BorderPage from "@/components/BorderPage";
 import Slogan from "@/components/Slogan";
 import Numbers from "@/components/Numbers";
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <br/><br/><br/><br/><br/>
       <Numbers/>
       <About />
+      <Contact />
     </div>
   );
 }

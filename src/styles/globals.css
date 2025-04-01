@@ -5,7 +5,7 @@
   --foreground: #423137;
   --bg-brown: #423137;
   --bg-orange: #FF8B37;
-  --text-dark: #423137;
+  --text-brown: #423137;
   --text-orange: #FF8B37;
 }
 
@@ -33,6 +33,11 @@ body {
   color: var(--text-brown);
 }
 
+.border-brown {
+  border: solid 1px var(--bg-brown);
+}
+
+
 .text-orange {
   color: var(--text-orange);
 }
@@ -53,6 +58,11 @@ body {
 .menu-hover:hover {
   background-color: var(--bg-brown);
   color: white !important;
+}
+
+#inputEmail::placeholder {
+  color: var(--text-brown);
+  opacity: 75%;
 }
 
 @media (max-width: 640px) {
