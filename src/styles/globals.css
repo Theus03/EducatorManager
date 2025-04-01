@@ -60,6 +60,18 @@ body {
   color: white !important;
 }
 
+.social-hover {
+  transition: 0.2s ease-in-out;
+  animation: ease-in-out 0.2s;
+}
+
+.social-hover:hover {
+  transform: translateX(-12px);
+  transition: 0.4s ease-in-out;
+  animation: ease-in-out 0.8s;
+  color: white !important;
+}
+
 #inputEmail::placeholder {
   color: var(--text-brown);
   opacity: 75%;
