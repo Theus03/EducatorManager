@@ -5,7 +5,7 @@ export default function BorderPage() {
         <div>
             
           <Image
-            src="/border-left-top.svg"
+            src="border-left-top.svg"
             alt="Border Top Page Left"
             width={164}
             height={164}
@@ -18,7 +18,7 @@ export default function BorderPage() {
               max-[640px]:hidden"
             />
           <Image
-            src="/border-right-top.svg"
+            src="border-right-top.svg"
             alt="Border Bottom Page Right"
             width={164}
             height={164}
@@ -31,7 +31,7 @@ export default function BorderPage() {
               max-[640px]:hidden"
           />
           <Image
-            src="/border-left-bottom.svg"
+            src="border-left-bottom.svg"
             alt="Border Bottom Page Left"
             width={164}
             height={164}
@@ -44,7 +44,7 @@ export default function BorderPage() {
               max-[640px]:hidden"
           />
           <Image
-            src="/border-right-bottom.svg"
+            src="border-right-bottom.svg"
             alt="Border Bottom Page Right"
             width={164}
             height={164}
