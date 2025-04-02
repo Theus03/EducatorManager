@@ -36,7 +36,7 @@ export default function Slogan()  {
           height={96}
           className="flex absolute right-80 bottom-80 float max-[1750px]:hidden"
           />
-        <h4 className="text-brown font-normal mt-8 text-2xl mb-2 max-[1180px]:text-lg max-[680px]:text-xs">Sistema de Gestão para Escolas, Colégios Públicos e Privados, e Professores.</h4>
+        <h4 className="text-brown font-normal text-center mt-8 text-2xl mb-2 max-[1180px]:text-lg max-[680px]:text-xs max-[500px]:pl-6 max-[500px]:pr-6">Sistema de Gestão para Escolas, Colégios Públicos e Privados, e Professores.</h4>
         <button className="bg-orange text-white mt-8 font-black text-2xl p-6 rounded-2xl w-64 cursor-pointer hover:translate-x-2 transition-all duration-300 ease-in-out max-[680px]:p-4 max-[680px]:text-lg max-[680px]:w-48">Saiba Mais</button>
     </div>
   )
