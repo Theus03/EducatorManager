@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -18,11 +19,11 @@ export default function Header() {
 
                 </div>
                 <div className="flex max-[1000px]:ml-12">
-                    <ul className="flex items-center lg:gap-16 md:gap-12 sm:gap-8">
-                        <li className="menu-active cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]:text-sm">Home</li>
-                        <li className="cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]text-sm">Sobre</li>
-                        <li className="cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]text-sm">Contato</li>
-                    </ul>
+                    <div className="flex items-center lg:gap-16 md:gap-12 sm:gap-8">
+                        <Link href="#home" className="menu-active cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]:text-sm">Home</Link>
+                        <Link href="#sobre" className="cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]text-sm">Sobre</Link>
+                        <Link href="#contato" className="cursor-pointer p-2 w-28 text-center rounded-4xl font-bold transition-all menu-hover max-[640px]:w-20 max-[640px]text-sm">Contato</Link>
+                    </div>
                 </div>
             </nav>
         </div>
