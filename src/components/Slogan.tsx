@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Slogan()  {
   return (
-    <div className="w-full flex flex-col gap-4 mt-6 justify-center items-center">
+    <div id="#home" className="w-full flex flex-col gap-4 mt-6 justify-center items-center">
         <h4 className="text-orange font-bold mt-4 text-2xl mb-2 max-[1180px]:text-lg">EducatorManager</h4>
         <Image
           src="Pencil.svg"
