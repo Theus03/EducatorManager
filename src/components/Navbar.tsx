@@ -8,7 +8,7 @@ export default function Header() {
             <nav className="flex items-center lg:gap-32 md:gap-24 sm:gap-16 p-8 max-[360px]:flex-col gap-2">
                 <Image
                     className="lg:w-48 md:w-48 max-[640px]:w-24"
-                    src="/logo.svg"
+                    src="logo.svg"
                     alt="Educator Manager logo"
                     width={180}
                     height={38}

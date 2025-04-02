@@ -5,14 +5,14 @@ export default function Slogan()  {
     <div className="w-full flex flex-col gap-4 mt-6 justify-center items-center">
         <h4 className="text-orange font-bold mt-4 text-2xl mb-2">EducatorManager</h4>
         <Image
-          src="/Pencil.svg"
+          src="Pencil.svg"
           alt="Pencil"
           width={96}
           height={96}
           className="flex absolute left-80 top-32 float max-[1750px]:hidden"
           />
         <Image
-          src="/Computer.svg"
+          src="Computer.svg"
           alt="Pencil"
           width={96}
           height={96}
@@ -23,14 +23,14 @@ export default function Slogan()  {
             <div>com gestão inteligente.</div>
         </h1>
         <Image
-          src="/Books.svg"
+          src="Books.svg"
           alt="Pencil"
           width={96}
           height={96}
           className="flex absolute right-80 top-32 float max-[1750px]:hidden"
           />
         <Image
-          src="/Homework.svg"
+          src="Homework.svg"
           alt="Pencil"
           width={96}
           height={96}
