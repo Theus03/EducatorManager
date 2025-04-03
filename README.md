@@ -12,3 +12,17 @@ Landing Page desenvolvida para uma empresa fictícia de vendas de sistemas educa
 	•	Seções de apresentação da empresa, produtos e contato
 	•	Estilo moderno e personalizável com Tailwind
 	•	Código limpo e organizado com uso de boas práticas em TypeScript
+
+## Como rodar o projeto localmente
+
+# Clone este repositório
+git clone https://github.com/Theus03/EducatorManager.git
+
+# Acesse a pasta do projeto
+cd EducatorManager
+
+# Instale as dependências
+npm install
+
+# Rode o projeto em modo de desenvolvimento
+npm run dev
