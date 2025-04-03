@@ -1,4 +1,4 @@
-###EducatorManager – Landing Page
+# EducatorManager – Landing Page
 
 Landing Page desenvolvida para uma empresa fictícia de vendas de sistemas educacionais. O objetivo do projeto é apresentar a empresa e seus produtos de forma moderna, responsiva e otimizada, utilizando tecnologias atuais do ecossistema web.
 
