@@ -15,7 +15,7 @@ Landing Page desenvolvida para uma empresa fictícia de vendas de sistemas educa
 
 ## Como rodar o projeto localmente
 
-		git clone https://github.com/Theus03/EducatorManager.git
-	 cd EducatorManager
-		npm install
+	git clone https://github.com/Theus03/EducatorManager.git
+	cd EducatorManager
+	npm install
 		npm run dev
